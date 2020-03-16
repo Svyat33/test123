@@ -1,4 +1,5 @@
 # Напишите сюда домашку.
+
 """
 Task 6.4 with star.
 
@@ -25,3 +26,12 @@ while i <= number_of_attempts:
 else:
     print('Computer lost!')
 #еще строка
+print("---"*15)
+string = input("enter string: ")
+words = {}
+for i in set(string.split(" ")):
+    if len(i.strip())>0:
+        words[i] = (string.split(" ")).count(i)
+
+print(words)
+
