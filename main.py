@@ -27,6 +27,7 @@ else:
     print('Computer lost!')
 #еще строка
 print("---"*15)
+# ------------------111--------------
 string = input("enter string: ")
 words = {1}
 for i in set(string.split(" "))
